@@ -20,7 +20,7 @@ class IntResultBuilder
         return $this;
     }
 
-    public function buildAndReturnResponse(): int
+    public function buildAndReturnResponse(): string
     {
         return $this->result;
     }
