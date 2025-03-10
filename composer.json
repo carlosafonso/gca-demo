@@ -1,0 +1,8 @@
+{
+    "name": "carlosafonso/gca-demo",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
