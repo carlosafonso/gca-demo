@@ -6,11 +6,11 @@ class FooCalculator
 {
     public static function calculateFooGivenBaz(Baz $baz): int
     {
-        return 42;
+        return IntResultBuilder::newBuilder()->withResponse(42)->buildAndReturnResponse();
     }
 
     public static function calculateFooGivenQuux(Quux $quux): int
     {
-        return 42;
+        return IntResultBuilder::newBuilder()->withResponse(108)->buildAndReturnResponse();
     }
 }
